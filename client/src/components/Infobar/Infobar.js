@@ -9,7 +9,7 @@ const Infobar = (props) => {
         <div className='infoBar'>
             <div className="leftInnerContainer">
                 <img className="onlineIcon" src={onlineIcon} alt="online icon"/>
-                <h3>{props.roomName}</h3>
+                <h3>Room: {props.roomName}</h3>
             </div>
             <div className="rightInnerContainer">
                 <a href='/'><img src={closeIcon} alt="close image"/></a>
